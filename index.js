@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-let mainDir = ""
+let mainDir = "C:/Users/DELL/Desktop/testNokiaNew"
 readDirOrFile(mainDir)
 
 function readDirOrFile(path){
@@ -17,7 +17,7 @@ function readDirOrFile(path){
             else{
                 let extension = file.substring(file.length - 4)
                 const date = stat.mtime
-                const newDate = `${date.getFullYear()}-${date.getMonth()}-${date.getDay()}`
+                const newDate = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`
                 let index = '000' + counter
                 const newName = `${newDate} ` + index.substring(index.length-3) + extension
                 console.log(newName)
