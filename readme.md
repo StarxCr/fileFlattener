@@ -1,4 +1,4 @@
-# File Flattener #
+# Media Flattener #
 * Extracts files from subdirectories 
 * Moves them to main directory
 * Renames files using creation date and index is in 3 digit format. Fomat YYYY-MM-DD Index. 
