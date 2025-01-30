@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-let mainDir = "C:/Users/DELL/Desktop/testNokiaNew"
+let mainDir = ""
 readDirOrFile(mainDir)
 
 function readDirOrFile(path){
