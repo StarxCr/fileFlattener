@@ -6,5 +6,4 @@
 Initially used to format imported photos and videos from an old phone.
 ## Set up ##
 * clone git
-* `npm install`
 * Set `mainDir` to the desired location. Output files will be saves there.
